@@ -1,0 +1,19 @@
+
+
+<div class="welcome">
+  <div class="welcome-text">
+        <h3>Welcome</h3>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <a href="#">More about us</a>
+  </div>
+  <div class="welcome-pic">
+    <img src="welcome-pic.jpg" alt="welcome picture" style="width:400px; height: 600px;">
+  </div>
+</div>
+<div class="reserve">
+  <p>Call us now and make a reservation today</p>
+  <a href="#">Call us</a>
+</div>
+</div>

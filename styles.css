@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav{
+  margin-right: 16px;
+}
+nav a{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+  margin-right: 20px;
+  margin-top: 15px;
+  font-size: 0.9em;
+  transition: 0.5s
+}
+nav a:hover{
+  color: lightblue;
+}
+.btn{
+  padding: 10px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  background-color: lightblue;
+  color: #fff;
+}
+
+
+.head-img{
+  position: relative;
+}
+.head-text{
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  margin-bottom: 150px;
+  padding: 50px;
+}
+.head-text h2{
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+.head-text h4{
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+
+.welcome-display{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 50px;
+}
+.welcome-text h3{
+  font-size: 30px;
+
+}
+.welcome-text h4{
+  position: relative;
+}
+.welcome-text h4::after{
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100px;
+  height: 2px;
+  background-color: lightblue;
+}
+
+
+.call-now{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey;
+  padding: 20px;
+}
+.call-now a{
+  margin-left: 5px;
+}
+
+
+.our-menu{
+  margin-left: 80px;
+  margin-right: 70px;
+  margin-top: 50px;
+}
+.menu-blue{
+  background-color: lightblue;
+  width: 300px;
+  height: 200px;
+  opacity: 0.9;
+  padding: 10px;
+}
+.our-menu-table{
+  padding-top: 50px;
+  padding-left: 120px;
+}
+.our-menu table{
+  border: 1px solid lightblue;
+  border-radius: 10px;
+}
+
+
+.month-signature{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightgrey;
+  padding: 37px;
+}
+.signature-pic img{
+  border: 1px solid transparent;
+  border-radius: 25px;
+}
+.signature-text{
+  margin-left: 40px;
+}
+
+
+.profile-review{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.profile-review .review{
+  border: 2px solid transparent;
+  border-radius: 30px;
+  padding: 10px;
+}
+.review img{
+  width: 130px;
+  height: 120px;
+  border: 1px solid lightblue;
+  border-radius: 100%;
+}
+.review-text{
+  font-size: 0.9em;
+}
+
+
+.contact-card{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 30px;
+}
+.contact-form form {
+    border: 2px solid #182357;
+    padding: 20px;
+    margin-left: 280px;
+    margin-right: 280px;
+}
+.contact-form input {
+    border: 2px solid #182357;
+    width: 225px;
+    margin: 15px;
+    padding: 20px;
+}
+.contact-form label{
+    font-size: 16px;
+    margin: 5px;
+    text-transform: capitalize;
+}
+.contact-form a {
+    text-decoration: none;
+    border: 2px solid lightblue;
+    border-radius: 35px;
+    padding: 10px;
+    transition: 0.3s;
+    color: #fff;
+    background-color: lightblue;
+}
+
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.company-info{
+  padding-bottom: 30px;
+}
+.company-info a{
+  text-decoration: none;
+  color: #000;
+}
+.footer .socials a{
+  display: inline-block;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #fff;
+  margin: 15px;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(225, 225, 225, 0.2);
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.menu-side{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+}
+.menu-side-text h3{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.food-lists{
+  list-style: none;
+}
+.food-lists li{
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+.menu-side-img img{
+  border: 1px solid transparent;
+  border-radius: 35px;
+}
+
+.form-reserve{
+  padding: 50px;
+}
+.form-reserve h3{
+  position: relative;
+  font-size: 20px;
+}
+.form-reserve h3::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 2px;
+  background-color: lightblue;
+}
+.mod-res{
+  text-decoration: none;
+  color: #fff;
+  background-color: lightblue;
+  border: 1px solid transparent;
+  padding: 15px;
+}
+
+
+.counter-full{
+  background-color: lightgrey;
+  padding: 10px;
+}
+.counter-full h2{
+  font-size: 50px;
+}
+.counter{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  margin-top: 30px;
+}
+.counter h3, .counter p{
+  font-size: 30px;
+}
